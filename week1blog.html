@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>my blog</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="my first blog">
+        <meta name="author" content="Alem Ayalew">
+        <meta name="viewport" content="width=width-device initial-scale=1.0">
+        <meta http-equiv="refresh" content="300">
+        <link rel="stylesheet" href="week1blog.css">
+       <script src="https://kit.fontawesome.com/476bfd406a.js" crossorigin="anonymous"></script>
+      
+      
+
+    </head>
+    <body>
+        <h2 align="center" style="color: rgb(55, 55, 138);">Where My Feet Go </h2>
+        <br>
+        <br>
+        <P style="font-size: large; font-family: 'Times New Roman', Times, serif;">&nbsp;&nbsp;&nbsp; Hi there! Welcome to Where My Feet Go, a travel blog for curious minds and wandering hearts. 
+Whether I’m sipping coffee in a quiet alleyway or hiking into the clouds, I write to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;share the wonder, beauty, and 
+lessons I find along the road. Let’s travel the world — <b>one story at a time.</b></P>
+        <blockquote style="font-style: italic; text-align: center; font-size: 20px; color: #444;">
+  "The world is a book, and those who do not travel read only one page." — Saint Augustine
+</blockquote>
+
+   
+        <br>
+        <br>
+        <div class="image-row" style="background-color:rgb(63, 66, 85);">
+          <a href="https://en.wikivoyage.org/wiki/Middle_East" target="_blank">
+       <img src="blogImage\pexels-apasaric-1285625.jpg" alt="travel" title="travel to middle-east"> 
+        </a>
+        <a href="https://www.britannica.com/place/Rome" target="_blank">
+       <img src="blogImage\pexels-haleyve-2087391.jpg"  alt="travel" title="travel to the ancient Civilazation (Italy ROME) ">
+       </a>
+       <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChsSEwjfxKn38IyOAxWArYMHHZGZIRAYACICCAEQABoCZWY&co=1&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJaDC2mGARBNdgaxqeVScyqX6tN8QkIdsh8ZmHDCWar2O9aedqCO5ERoCVxsQAvD_BwE&ohost=www.google.com&cid=CAESeuD2dDk6mIvlxwsUcUVQEWSLBi54cwk6oIxLh0ALgZyfYLRRk9CZxLygd_5di3e3ZId3f9McHszR4tEbQpaEvLXL3bYu4mR2IMzaS_UunHc0qTl_wm3E-jR0VhxXTB5tIZwnvr-MNtdff_RPhWWN5btTOMJKuTwsseTM&category=acrcp_v1_40&sig=AOD64_0-JdIeLkA75TEs4Cinw57dWlPoJA&q&adurl&ved=2ahUKEwip4aH38IyOAxXhhv0HHXDjB2gQ0Qx6BAgMEAE" target="_blank">
+       <img src="blogImage\pexels-pixabay-46148.jpg"  alt="travel" title="fly to your destination">
+       </a>
+       </div>
+       <br style="background-color:rgb(63, 66, 85);">
+       <div class="image-row2" style="background-color:rgb(63, 66, 85);">
+       <img src="blogImage\pexels-pixabay-207896.jpg" alt="you and your friends photos" title="capture the moment with your loved ones">
+       <a href="https://travel.usnews.com/rankings/worlds-best-vacations/" target="_blank">
+       <img src="blogImage\pexels-valentinantonucci-1275393.jpg" alt="globe" title="travel to where your soul wishes">
+       </a>
+       <a href="https://whc.unesco.org/en/list/394/" target="_blank">
+       <img src="blogImage\pexels-vince-2265876.jpg" alt="boats" title="in the wonder of venice">
+       </a>
+      </div>
+      
+       
+           
+      <br>
+      <br>
+        <h4 align="center" style="font-size: larger; font-family: 'Times New Roman', Times, serif;"><ins>drop your comment</ins></h4> 
+        <br>
+        <div class="form-container">
+          <div class="form-left">
+        <form id="commentForm">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Alem" required>
+            <br>
+            <br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="fname" placeholder="Ayalew" required>
+            <br>
+            <br>
+            <label for="email">E-mail:    </label>
+            <input type="email" id="email" name="email" placeholder="alemayalew@gmail.com" required>
+          
+            <br>
+            <br>
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+            <option value="">--Select Country--</option>
+            </select>
+
+                </div>
+                <div class="form-right">
+                <label for="com"></label>
+                <textarea id="com" name="com" placeholder="write your Comment" required></textarea>
+                <button style="background-color: black;color: green; border-radius: 5px; font-size: large; align-items: center;">Submit</button>
+                </div>
+                </div>
+        </form>
+        </div>
+        <div id="comments-section">
+
+        <h4>Submitted Comments:</h4>
+        
+        <div id="commentList"></div>
+        <button id="viewAllBtn" style="display:none; background-color: #110909; color: white; padding: 6px 12px; margin-top: 10px; border: none; border-radius: 4px;">View All Comments</button>
+        </div>
+
+        <div id="blog-posts" style="margin: 30px; padding: 20px; background-color: #fff8dc; border-radius: 5px;">
+          <h3>Latest Blog Posts</h3>
+          <div id="postsContainer"></div>
+          </div>
+
+
+        <footer>
+  
+  <p class="author-info">Author: Alem Ayalew | Contact me on:</p>
+
+  <div class="Icons">
+    <a href="mailto:alemayalew26@gmail.com" target="_blank">
+      <i class="fa-solid fa-square-envelope fa-2xl"></i>
+    </a>
+    <a href="tel:+251983851856" target="_blank">
+      <i class="fa-brands fa-square-whatsapp fa-2xl"></i>
+    </a>
+    <a href="https://t.me/MJ_mayra" target="_blank">
+      <i class="fa-brands fa-telegram fa-2xl"></i>
+    </a>
+    <i class="fa-brands fa-weixin fa-2xl"></i>
+  </div>
+
+  <p>&copy; 2025 Where My Feet Go. All rights reserved.</p>
+</footer>
+
+ <script src="week1blog.js"></script>
+    </body>
+    
+</html>
